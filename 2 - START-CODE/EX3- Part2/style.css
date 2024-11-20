@@ -1,0 +1,55 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    color: #cacaca;
+    font-size: 24px;
+    height: 100vh;
+    text-align: center;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 80px 400px auto 250px;
+    grid-template-rows: 80px auto;
+  }
+
+  nav {
+    background-color: #343a40;
+    grid-row: 2 span;
+  }
+  menu {
+    display: flex;
+    background-color: #7048e8;
+    grid-column: 3 span;
+    justify-content: start;
+    padding-left: 40px;
+  }
+  section div{
+    padding: 40px;
+  }
+  section {
+    background-color: #e9ecef;
+  }
+  main {
+    background-color: white;
+    color: black;
+  }
+  aside {
+    background-color: #e9ecef;
+    color: black;
+  }
+  button {
+    background-color: #5f3dc4;
+    color: white;
+    gap: 10px;
+    padding: 10px;
+  }
+  .email {
+    margin: 40px;
+    gap: 40px;
+    background-color: grey;
+  }
